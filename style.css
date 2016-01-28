@@ -1,0 +1,30 @@
+.wrap{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#game{
+  background-color: #2A00DE;
+  padding: 10px;
+  width: auto;
+  display: inline-block;
+}
+.row{
+}
+.box{
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 50%
+}
+.box.yellow{
+  background-color: yellow;
+}
+.box.red{
+  background-color: red;
+}
+.box.playable{
+  background-color: gray;
+}
